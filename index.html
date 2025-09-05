@@ -7,25 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">  Település:
-        Irányítószám:
-        Közterület:
-        Házszám:
-        <label for="nev">Adja meg a nevet:
-            <input type="text" id="nev">
-        </label>
-        <label for="telepules">Adja meg a telepulest:
-            <input type="text" id="telepules">
-        </label>
-        <label for="iranyitoszam">Adja meg a iranyitoszamot:
-            <input type="number" id="iranyitoszam">
-        </label>
-        <label for="kozterulet">Adja meg a kozteruletet:
-            <input type="text" id="kozterulet">
-        </label>
-        <label for="hazszam">Adja meg a hazszamot:
-            <input type="text" id="hazszam">
-        </label>
+    <form action="">Adja meg a <br>
+        <div id="form">
+            <div id="form-group">
+                <label for="nev">nevét:
+                    <input type="text" id="nev" required>
+                </label>
+            </div>
+            <br>
+            <div id="form-group">
+                <label for="telepules">telepuleset:
+                <input type="text" id="telepules" required>
+            </label>            
+            </div>
+            <br>
+            <div id="form-group">
+                <label for="iranyitoszam">iranyitoszamat:
+                <input type="number" id="iranyitoszam" required>
+            </label>            
+            </div>
+            <br>
+            <div id="form-group">
+                <label for="kozterulet">kozterulet jelleget:
+                <input type="text" id="kozterulet" required>
+            </label>            
+            </div>
+            <br>
+            <div id="form-group">
+                <label for="hazszam">hazszam:
+                <input type="text" id="hazszam" required>
+            </label>            
+            </div>
+            <br>
+        </div>
+        
     </form>
     
     <h3>Lekért adatok:</h3>

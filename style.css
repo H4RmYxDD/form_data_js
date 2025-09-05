@@ -4,3 +4,22 @@
     flex-wrap: nowrap;
     justify-content: center;
   }
+
+#form{
+    padding-left: 25px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 15px 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+input{
+    width: 150px;
+}
