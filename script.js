@@ -1,10 +1,10 @@
 document.getElementById("bekuldes").addEventListener("click", mentes);
 function mentes() {
-  const nev = document.getElementById("nev");
-  const telepules = document.getElementById("telepules");
-  const iranyitoszam = document.getElementById("iranyitoszam");
-  const kozterulet = document.getElementById("kozterulet");
-  const hazszam = document.getElementById("hazszam");
+  const nev = document.getElementById("nev").value;
+  const telepules = document.getElementById("telepules").value;
+  const iranyitoszam = document.getElementById("iranyitoszam").value;
+  const kozterulet = document.getElementById("kozterulet").value;
+  const hazszam = document.getElementById("hazszam").value;
   localStorage.setItem("nev", nev);
   localStorage.setItem("telepules", telepules);
   localStorage.setItem("iranyitoszam", iranyitoszam);
@@ -15,5 +15,5 @@ function mentes() {
 }
 document.getElementById("delete").addEventListener("click", torles);
 function torles(){
-    localStorage.clear;
+    localStorage.clear();
 }
