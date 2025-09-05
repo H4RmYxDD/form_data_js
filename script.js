@@ -11,13 +11,18 @@ function mentes() {
   localStorage.setItem("kozter", kozterulet);
   localStorage.setItem("hazszam", hazszam);
   document.getElementById("flex-container").innerHTML =
-    "Név: " + nev + 
-    "Település: " + telepules +
-    "Irányítószám: " + iranyitoszam + 
-    "Közterület jellege: " + kozterulet + 
-    "Házszám: " + hazszam;
+    "Név: " +
+    nev +
+    " Település: " +
+    telepules +
+    " Irányítószám: " +
+    iranyitoszam +
+    " Közterület jellege: " +
+    kozterulet +
+    " Házszám: " +
+    hazszam;
 }
 document.getElementById("delete").addEventListener("click", torles);
-function torles(){
-    localStorage.clear();
+function torles() {
+  localStorage.clear();
 }
