@@ -11,7 +11,11 @@ function mentes() {
   localStorage.setItem("kozter", kozterulet);
   localStorage.setItem("hazszam", hazszam);
   document.getElementById("flex-container").innerHTML =
-    nev + telepules + iranyitoszam + kozterulet + hazszam;
+    "Név: " + nev + 
+    "Település: " + telepules +
+    "Irányítószám: " + iranyitoszam + 
+    "Közterület jellege: " + kozterulet + 
+    "Házszám: " + hazszam;
 }
 document.getElementById("delete").addEventListener("click", torles);
 function torles(){
