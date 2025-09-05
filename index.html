@@ -7,34 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">Adja meg a <br>
+    <h1>Adatok</h1>
+    <form action="">
         <div id="form">
             <div id="form-group">
-                <label for="nev">nevét:
+                <label for="nev">Név:
                     <input type="text" id="nev" required>
                 </label>
             </div>
             <br>
             <div id="form-group">
-                <label for="telepules">telepuleset:
+                <label for="telepules">Telepules:
                 <input type="text" id="telepules" required>
             </label>            
             </div>
             <br>
             <div id="form-group">
-                <label for="iranyitoszam">iranyitoszamat:
+                <label for="iranyitoszam">Iranyitoszam:
                 <input type="number" id="iranyitoszam" required>
             </label>            
             </div>
             <br>
             <div id="form-group">
-                <label for="kozterulet">kozterulet jelleget:
+                <label for="kozterulet">Kozterulet jelleget:
                 <input type="text" id="kozterulet" required>
             </label>            
             </div>
             <br>
             <div id="form-group">
-                <label for="hazszam">hazszam:
+                <label for="hazszam">Hazszam:
                 <input type="text" id="hazszam" required>
             </label>            
             </div>
@@ -42,8 +43,11 @@
         </div>
         
     </form>
-    <button id="bekuldes">Beküldés</button> <br> <br>
-    <button id="delete">Törlés</button>
+    <div id="gombok">
+        <button id="bekuldes">Beküldés</button> <br> <br>
+        <button id="delete">Törlés</button>
+    </div>
+    
     
     <h3>Lekért adatok:</h3>
     <div id="flex-container">
